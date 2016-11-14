@@ -14,6 +14,17 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+e2e/**/*.js
+e2e/**/*.js.map
+app/**/*.js
+app/**/*.js.map
+cucumber.json
+/node-modules
+/screenshots
+
+!gulpfile.js
+!systemjs.config.js
+!systemjs.config.extras.js
 # Windows shortcuts
 *.lnk
 
@@ -45,3 +56,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
